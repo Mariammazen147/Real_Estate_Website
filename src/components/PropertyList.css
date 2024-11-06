@@ -1,0 +1,13 @@
+.property-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 16px;
+  padding: 16px;
+}
+
+.no-properties-message {
+  font-size: 1.2em;
+  color: #666;
+  text-align: center;
+  margin: 20px 0;
+}

@@ -1,0 +1,63 @@
+.property-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    width: 300px;
+    margin: 16px;
+    transition: transform 0.2s ease;
+  }
+  
+  .property-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .property-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .property-details {
+    padding: 16px;
+    color: #333;
+  }
+  
+  .property-details h3 {
+    font-size: 1.5em;
+    margin: 0 0 8px;
+    color: #333;
+  }
+  
+  .property-location, .property-price, .property-type, .property-area,
+  .property-bedrooms, .property-bathrooms {
+    margin: 4px 0;
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    color: #666;
+  }
+  
+  .property-amenities {
+    margin-top: 8px;
+  }
+  
+  .property-amenities ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .property-amenities li {
+    margin: 4px 0;
+    font-size: 0.9em;
+    color: #555;
+  }
+  
+  .property-price {
+    font-weight: bold;
+    color: #000;
+  }
+  

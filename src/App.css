@@ -1,0 +1,88 @@
+/* App.css */
+
+/* Main Background and Header */
+body {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.header {
+  background-color: #003366;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 2em;
+}
+
+/* Navigation Buttons */
+.nav .btn {
+  color: #fff;
+  border-color: #009688;
+  transition: 0.3s;
+}
+
+.nav .btn:hover {
+  background-color: #009688;
+  color: #fff;
+}
+
+/* Form Fields */
+.form-control {
+  border: 1px solid #ddd;
+  transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #009688;
+  box-shadow: 0 0 5px rgba(0, 150, 136, 0.3);
+}
+
+.btn-primary {
+  background-color: #009688;
+  border-color: #009688;
+}
+
+.btn-primary:hover {
+  background-color: #00796b;
+  border-color: #00796b;
+}
+
+/* Property Cards */
+.property-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  transition: transform 0.2s ease;
+}
+
+.property-card:hover {
+  transform: scale(1.02);
+}
+
+.property-card h3 {
+  color: #003366;
+}
+
+.property-location, .property-price, .property-type {
+  color: #009688;
+}
+
+.property-amenities li {
+  color: #333;
+  font-weight: 500;
+}
+
+.property-filter .price-range {
+  display: flex;
+  gap: 10px;
+}
+
+.property-filter .price-range input {
+  width: 50%;
+}
